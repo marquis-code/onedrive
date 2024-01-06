@@ -1,0 +1,12 @@
+{
+  "name": "Securely save and share what’s important with OneDrive",
+  "short_name": "OneDrive",
+  "description": "## Build Setup",
+  "icons": [],
+  "start_url": "/?standalone=true",
+  "display": "standalone",
+  "background_color": "#4169E1",
+  "theme_color": "#4169E1",
+  "lang": "en",
+  "orientation": "portrait"
+}
