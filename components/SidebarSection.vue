@@ -30,13 +30,6 @@
           </nuxt-link>
         </li>
       </ul>
-
-      <!-- <div class="ml-14">
-        <button class="text-red-500 font-medium flex items-center gap-x-2">
-          <img src="~/assets/icons/logout.svg" alt="logout icon" />
-          <span> Logout </span>
-        </button>
-      </div> -->
     </div>
   </div>
 </template>

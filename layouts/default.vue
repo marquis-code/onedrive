@@ -118,12 +118,9 @@
 <script>
 import Vue from "vue";
 import SidebarSection from "@/components/SidebarSection.vue";
-import MobileSidebar from "@/components/MobileSidebar.vue";
-export const GlobalEventEmitter = new Vue();
 export default {
   components: {
     SidebarSection,
-    MobileSidebar,
   },
   data() {
     return {
@@ -158,25 +155,9 @@ export default {
     };
   },
   head: {
-    title: "Medinize Community",
+    title: "OneDrive",
     bodyAttrs: {
       class: "font-sans leading-normal tracking-normal",
-    },
-  },
-  watch: {
-    $route() {
-      this.toggleSidebar = !this.toggleSidebar;
-    },
-  },
-  beforeDestroy() {
-    this.$nuxt.$off("toggle");
-  },
-  methods: {
-    closeMobileSidebar() {
-      this.toggleSidebar = false;
-    },
-    openMobileSidebar() {
-      this.toggleSidebar = true;
     },
   },
 };
